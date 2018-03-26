@@ -6,6 +6,8 @@ import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import Login from '@/components/Login'
 import First from '@/components/First'
+import RouterDetail from '@/components/RouterDetail'
+import ConditionRender from '@/components/ConditionRender'
 Vue.use(Router)
 /* {
       path: '/',
@@ -33,6 +35,14 @@ export default new Router({
         }, {
           path: 'first',
           component: First
+        }, {
+          path: 'routerDetail',
+          name: '123',
+          component: RouterDetail
+        }, {
+          path: 'conditionRender',
+          name: '124',
+          component: ConditionRender
         }
       ]
     }
